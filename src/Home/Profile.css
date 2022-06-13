@@ -1,0 +1,109 @@
+.colz {
+    font-size: 35px;
+  }
+  .profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: fit-content;
+    background-color: #1f2235;
+  }
+  
+  .profile-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  .profile-details-name {
+    font-size: 50px;
+  }
+  
+  .profile-details-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+  }
+  
+  .profile-details-role h1 {
+    font-size: 60px;
+    font-family: cursive;
+  }
+  
+  .primary-text {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .highlighted-text {
+    color: darkorange;
+    font-size: 40px;
+  }
+  
+  .colz i {
+    color: white;
+    padding: 8px;
+  }
+  
+  @media screen and (max-width: 1110px) {
+    .profile-details-name {
+      font-size: 20px;
+    }
+    .profile-details-role .primary-text {
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 910px) {
+  }
+  @media screen and (max-width: 810px) {
+    .profile-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+  
+    .profile-details {
+      margin: 25px 0 0;
+      width: 400px;
+    }
+  
+    .profile-details-name .profile-details-role {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 680px) {
+    .profile-details-role h1 {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .profile-details-role h1 {
+      font-size: 30px;
+    }
+    .primary-text {
+      font-size: 30px;
+    }
+    .highlighted-text {
+      font-size: 33px;
+    }
+    .colz i {
+      color: white;
+      padding: 8px;
+      font-size: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .profile-details-role h1 {
+      font-size: 25px;
+    }
+    .primary-text {
+      font-size: 28px;
+    }
+    .highlighted-text {
+      font-size: 28px;
+    }
+  }
+  

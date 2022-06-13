@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .About {
+    height: 100vh;
+    width: 100%;
+    background-color: #1f1d36;
+  }
+  .About h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: beige;
+    padding-top: 80px;
+  }
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 55px;
+  }
+  
+  .profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px #ff0000;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+  }
+  
+  .picture {
+    height: 92%;
+    width: 92%;
+    background-image: url(../Images/_DSC0127.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 3px;
+    height: 450px;
+    width: 500px;
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  
+  .card h2 {
+    padding: 5px;
+    color: #000b49;
+  }
+  .card p {
+    line-height: 30px;
+    font-size: 1.1rem;
+    font-family: cursive;
+    font-size: 1.3rem;
+    color: ghostwhite;
+  }
+  .card p span {
+    color: burlywood;
+  }
+  .para {
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 1026px) {
+    .About {
+      height: 130vh;
+    }
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-pic {
+      height: 350px;
+      width: 350px;
+    }
+  
+    .card {
+      margin-top: 30px;
+      height: 350px;
+      width: 550px;
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 680px) {
+    .About {
+      height: 100vh;
+    }
+    .about {
+      margin-top: 10px;
+    }
+    .profile-pic {
+      height: 280px;
+      width: 280px;
+    }
+  
+    .card {
+      height: 370px;
+      width: 420px;
+    }
+    .card h2 {
+      font-size: 1.1rem;
+    }
+  
+    .card p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .card {
+      width: 370px;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .About {
+      height: 115vh;
+    }
+    .card {
+      width: 300px;
+    }
+    .card p {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .About {
+      height: 135vh;
+    }
+  
+    .profile-pic {
+      height: 200px;
+      width: 200px;
+    }
+    .card {
+      width: 300px;
+      height: 305px;
+    }
+    .card p {
+      font-size: 0.7rem;
+      line-height: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .About {
+      height: 140vh;
+    }
+  }
+  
